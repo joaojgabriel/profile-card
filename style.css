@@ -107,16 +107,22 @@ h1 {
   display: inline;
 }
 
+hr {
+  border: none;
+  border-top: 0.01px solid hsl(0, 0%, 59%);
+  height: 1px;
+}
+
 .stats {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 0 0 1rem 1rem;
-    height: 8.8rem;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0 0 1rem 1rem;
+  height: 8.8rem;
+  flex-wrap: wrap;
 }
 
 .stats .label {
-    font-size: 0.8rem;
-    display: block;
+  font-size: 0.8rem;
+  display: block;
 }
