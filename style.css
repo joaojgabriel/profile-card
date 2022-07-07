@@ -1,0 +1,27 @@
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* Remove default margin and padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
